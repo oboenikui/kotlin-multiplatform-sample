@@ -1,0 +1,6 @@
+rootProject.name = 'kotlin-multiplatform-sample'
+include 'web'
+include 'jvm'
+include 'common'
+include 'common-jvm'
+include 'common-js'
