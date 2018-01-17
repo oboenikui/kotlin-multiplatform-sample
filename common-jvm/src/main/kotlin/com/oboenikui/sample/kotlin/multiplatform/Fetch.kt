@@ -1,3 +1,5 @@
+package com.oboenikui.sample.kotlin.multiplatform
+
 import kotlinx.coroutines.experimental.Deferred
 import kotlinx.coroutines.experimental.async
 import okhttp3.MediaType

@@ -1,3 +1,5 @@
+package com.oboenikui.sample.kotlin.multiplatform
+
 import kotlinx.coroutines.experimental.Deferred
 import kotlinx.coroutines.experimental.asDeferred
 import kotlin.browser.window

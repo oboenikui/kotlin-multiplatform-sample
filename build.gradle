@@ -3,6 +3,7 @@ allprojects {
         ext.kotlin_version = '1.2.10'
         ext.serialization_version = '0.2'
         ext.anko_version = '0.10.1'
+        ext.coroutines_version = '0.21.2'
 
         repositories {
             maven { url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }

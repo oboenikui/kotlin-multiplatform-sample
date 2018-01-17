@@ -1,3 +1,5 @@
+package com.oboenikui.sample.kotlin.multiplatform
+
 import kotlinx.coroutines.experimental.Deferred
 
 expect object Fetch {
