@@ -1,6 +1,6 @@
 allprojects {
     buildscript {
-        ext.kotlin_version = '1.2.10'
+        ext.kotlin_version = '1.2.20'
         ext.serialization_version = '0.2'
         ext.anko_version = '0.10.1'
         ext.coroutines_version = '0.21.2'
@@ -13,7 +13,7 @@ allprojects {
             google()
         }
         dependencies {
-            classpath 'com.android.tools.build:gradle:2.3.3'
+            classpath 'com.android.tools.build:gradle:3.0.1'
             classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
             classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
         }
