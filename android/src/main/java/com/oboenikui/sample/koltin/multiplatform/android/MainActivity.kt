@@ -3,6 +3,7 @@ package com.oboenikui.sample.koltin.multiplatform.android
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import com.oboenikui.sample.kotlin.multiplatform.Client
 import com.oboenikui.sample.kotlin.multiplatform.Fetch.fetch
 import com.oboenikui.sample.kotlin.multiplatform.Method
 import com.oboenikui.sample.kotlin.multiplatform.RequestInit
@@ -16,11 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         async {
-            println("load start")
-            val response = fetch(url, RequestInit(Method.GET)).await()
-            println("decoding")
-            val welcomeText = response.text().await()
-            println("load end")
+            val welcomeText = Client.getWelcome().await()
             runOnUiThread {
                 progressBar.visibility = View.GONE
                 textView.text = welcomeText

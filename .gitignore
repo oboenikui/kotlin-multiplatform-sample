@@ -3,3 +3,6 @@
 *.iml
 **/.idea
 **/.gradle
+local.properties
+**/node_modules
+npm-debug.log
