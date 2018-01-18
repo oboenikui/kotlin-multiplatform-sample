@@ -10,8 +10,10 @@ allprojects {
             maven { url "https://kotlin.bintray.com/kotlinx" }
             maven { url 'https://maven.google.com' }
             jcenter()
+            google()
         }
         dependencies {
+            classpath 'com.android.tools.build:gradle:2.3.3'
             classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
             classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
         }
