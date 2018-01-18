@@ -13,7 +13,7 @@ enum class Method {
     POST
 }
 
-open expect class Response {
+expect open class Response {
     open val status: Short
     open val ok: Boolean
     open val statusText: String

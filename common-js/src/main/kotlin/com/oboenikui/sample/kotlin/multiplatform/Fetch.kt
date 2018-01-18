@@ -20,5 +20,3 @@ actual open class Response(private val response: org.w3c.fetch.Response) {
         return response.text().asDeferred()
     }
 }
-
-

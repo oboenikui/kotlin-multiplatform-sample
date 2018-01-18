@@ -5,7 +5,7 @@ import kotlin.test.Test
 import kotlin.test.assertTrue
 
 class FetchTest {
-    @Test fun testFetch(args: Array<String>) {
+    @Test fun testFetch() {
         Fetch.apply {
             async {
                 val response = fetch("http://example.com", RequestInit(Method.GET)).await()
